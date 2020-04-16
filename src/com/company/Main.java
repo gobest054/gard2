@@ -13,22 +13,22 @@ public class Main {
         if (x >= 80) {
             System.out.println("4");
         }
-        if (x >= 75) {
+        else if (x >= 75) {
             System.out.println("3.5");
         }
-        if (x >= 70) {
+        else if (x >= 70) {
             System.out.println("3");
         }
-        if (x >= 65) {
+        else if (x >= 65) {
             System.out.println("2.5");
         }
-        if (x >= 60) {
+        else if (x >= 60) {
             System.out.println("2");
         }
-        if (x >= 55) {
+        else if (x >= 55) {
             System.out.println("1.5");
         }
-        if (x >= 50) {
+        else if (x >= 50) {
             System.out.println("1");
         } else {
             System.out.println("0");
